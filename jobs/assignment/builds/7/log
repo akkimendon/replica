@@ -1,0 +1,28 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/assignment
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/assignment/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/akkimendon/test.git # timeout=10
+Fetching upstream changes from https://github.com/akkimendon/test.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.32.0'
+ > git fetch --tags --force --progress -- https://github.com/akkimendon/test.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision fee885084ae576c4ab3f8eeda71dfdd41d4b5298 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fee885084ae576c4ab3f8eeda71dfdd41d4b5298 # timeout=10
+Commit message: "added by saikumar"
+ > git rev-list --no-walk fee885084ae576c4ab3f8eeda71dfdd41d4b5298 # timeout=10
+[assignment] $ /bin/sh -xe /tmp/jenkins651528475231833296.sh
++ cd /var/lib/jenkins/workspace/assignment
++ make
+gcc -c big.c
+big.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ biggest(){
+ ^~~~~~~
+make: Circular rev.c <- rev.o dependency dropped.
+gcc -o ABC.exe main.o big.o fact.o rev.o
+Finished: SUCCESS

@@ -1,0 +1,12 @@
+Started on Jul 17, 2021, 10:23:00 AM
+Using strategy: Default
+[poll] Last Built Revision: Revision fee885084ae576c4ab3f8eeda71dfdd41d4b5298 (refs/remotes/origin/master)
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.32.0'
+ > git ls-remote -h -- https://github.com/akkimendon/test.git # timeout=10
+Found 1 remote heads on https://github.com/akkimendon/test.git
+[poll] Latest remote head revision on refs/heads/master is: 8027e8f546791b085adcbb4c196257eb0d955c12
+Done. Took 0.18 sec
+Changes found

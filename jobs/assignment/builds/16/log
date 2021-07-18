@@ -1,0 +1,29 @@
+Started by GitHub push by akkimendon
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/assignment
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/assignment/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/akkimendon/test.git # timeout=10
+Fetching upstream changes from https://github.com/akkimendon/test.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.32.0'
+ > git fetch --tags --force --progress -- https://github.com/akkimendon/test.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 3851faabfac22eb97e9a34c1cf15186ba398995a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3851faabfac22eb97e9a34c1cf15186ba398995a # timeout=10
+Commit message: "Update big.c"
+ > git rev-list --no-walk 64072db5fa07df9fc08c779336ebac7e7c4f0e47 # timeout=10
+[assignment] $ /bin/sh -xe /tmp/jenkins15591783633406406044.sh
++ cd /var/lib/jenkins/workspace/assignment
++ make
+gcc -c big.c
+big.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ biggest(){
+ ^~~~~~~
+gcc -c fact.c
+make: Circular rev.c <- rev.o dependency dropped.
+gcc -o ABC.exe main.o big.o fact.o rev.o
+Finished: SUCCESS

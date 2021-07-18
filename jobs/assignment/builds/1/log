@@ -1,0 +1,22 @@
+Started by user [8mha:////4MRj45819ZHvEJDh46XfqbP1Xd3+C9NqvpUyNW2zj9O1AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZe/dLi1CL9xNzUvJT8PADgsJGNwgAAAA==[0mAkshay Mendon
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/assignment
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/akkimendon/test.git
+ > git init /var/lib/jenkins/workspace/assignment # timeout=10
+Fetching upstream changes from https://github.com/akkimendon/test.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.32.0'
+ > git fetch --tags --force --progress -- https://github.com/akkimendon/test.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/akkimendon/test.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision fee885084ae576c4ab3f8eeda71dfdd41d4b5298 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fee885084ae576c4ab3f8eeda71dfdd41d4b5298 # timeout=10
+Commit message: "added by saikumar"
+First time build. Skipping changelog.
+Finished: SUCCESS

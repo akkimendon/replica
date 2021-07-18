@@ -1,0 +1,28 @@
+Started by user [8mha:////4MRj45819ZHvEJDh46XfqbP1Xd3+C9NqvpUyNW2zj9O1AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZe/dLi1CL9xNzUvJT8PADgsJGNwgAAAA==[0mAkshay Mendon
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/assignment
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/assignment/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/akkimendon/test.git # timeout=10
+Fetching upstream changes from https://github.com/akkimendon/test.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.32.0'
+ > git fetch --tags --force --progress -- https://github.com/akkimendon/test.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 3851faabfac22eb97e9a34c1cf15186ba398995a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3851faabfac22eb97e9a34c1cf15186ba398995a # timeout=10
+Commit message: "Update big.c"
+ > git rev-list --no-walk 3851faabfac22eb97e9a34c1cf15186ba398995a # timeout=10
+[assignment] $ /bin/sh -xe /tmp/jenkins15391913982082822672.sh
++ cd /var/lib/jenkins/workspace/assignment
++ make
+gcc -c big.c
+big.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ biggest(){
+ ^~~~~~~
+make: Circular rev.c <- rev.o dependency dropped.
+gcc -o ABC.exe main.o big.o fact.o rev.o
+Finished: SUCCESS
